@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <title>FAMILY MEMBER IDENTIFICATION</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body background="pastel.png">
+  <center>
+    <h3 class="btn btn-warning heading">
+Realtime image identification
+<hr>
+<center>
+  <div class="col-lg-6 col-sm-6 col-xs-12 col-md-6 heading_div">
+Model is trained on
+<br>
+<div class="btn btn-success heading_div2">
+  Ramakrishna|Kameswari|Amulya|Aishwarya
+</div>
+  </div>
+  <br><br>
+  <div class="col-lg-6">
+    <p class="btn btn-info result_para_tag">OBJECT:
+      <span id="result_object_name"></span>
+    </p>
+  </div>
+  <br><br>
+  <div class="col-lg-6">
+    <p class="btn btn-primary result_para_tag">ACCURACY:
+      <span id="result_object_accuracy"></span>
+    </p>
+  </div>
+</h3>
+</center>
+    <div class="copy_right_footer">
+      Developed by - Aishwarya Tadanki
+    </div>
+    
+  </center>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
